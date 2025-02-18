@@ -1,0 +1,41 @@
+// 1)npm init -y   --- for package.json and node module
+// 2)npm i express --- for express install
+// 3)npm i nodemon --- for nodemon install
+// 4)npm i mongoose --- for mongoose install
+// 5)In package.json change scripts to
+//      "start": "node index.js",
+//     "dev": "nodemon index.js"
+// for nodemon just to save & run(no recmd "npm run dev")
+// 6)npm i dotenv  -- for .env install
+// 7)npm i bcrypt -- for bcrypt install
+// 8)npm i jsonwebtoken -- for jsonwebtoken install
+// 9)npm i express-fileupload -- for express middleware install
+
+// cloudinary integration
+// nodinary integration
+// express package integration
+// nodemailer
+// pre and post middlewares
+smtp
+aws sqs and sns services
+
+//33:03
+
+
+// async function uploadFileToCloudinary(file,options) {
+//     const { folder, width, height } = options;
+//     const uploadOptions = {
+//         folder,
+//         resource_type: "auto",
+//     };
+//     if (width && height) {
+//         uploadOptions.width = width;
+//         uploadOptions.height = height;
+//       }
+    
+//     // if (quality) {
+//     //     uploadOptions.quality = quality; 
+//     // }
+//     // options.resource_type = "auto";
+//     return await cloudinary.uploader.upload(file.tempFilePath,uploadOptions);
+// }
